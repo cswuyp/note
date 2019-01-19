@@ -1,3 +1,4 @@
+```
 from turtle import*
 
 def nose(x,y):#鼻子
@@ -284,3 +285,4 @@ def main():
 
 if __name__ == '__main__':
 	main()
+```
