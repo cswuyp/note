@@ -1,6 +1,3 @@
-                                                                   # CS-Notes
-
-
 # Python相关知识
 ## Python小练习
 
