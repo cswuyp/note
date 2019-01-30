@@ -42,6 +42,6 @@
 [🔎](docs/操作系统/操作系统基础知识.md)操作系统基础
 
 # Git
-[🔎]()Github ID 更名后如何把旧的ID的commit记录跟新的GitHub ID一起显示
+[🔎](docs/Git和SVN/Git的使用.md)Github ID 更名后如何把旧的ID的commit记录跟新的GitHub ID一起显示
 # 面试常见题目
 [🔎](docs/面试题目/面试题目.md)面试常见题目
