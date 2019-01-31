@@ -35,7 +35,7 @@
 
 [🔎]()Linux实操
 # 数据库
-[🔎](docs/数据库/数据库基础知识.md)MySQL基础
+[🔎](docs/数据库/MySQL数据库基础知识.md)MySQL基础
 
 
 # 操作系统
