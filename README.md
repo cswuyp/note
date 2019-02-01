@@ -9,7 +9,7 @@
 
 [🔎](docs/C++/每日一练.md) 每日一练
 
-
+[https://github.com/cswuyp/note.git](https://github.com/cswuyp/note.git)
 # Python相关知识
 ## Python小练习
 
