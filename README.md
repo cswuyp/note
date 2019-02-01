@@ -9,6 +9,8 @@
 
 [🔎](docs/C++/每日一练.md) 每日一练
 
+[🔎](docs/C++/剑指offer.md) 剑指offer
+
 # Python相关知识
 ## Python小练习
 
