@@ -31,11 +31,11 @@
 
 # Linux
 
-[🔎]()常用Linux指令
+[🔎](docs/Linux/常用Linux指令.md)常用Linux指令
 
-[🔎]()Linux基础知识
+[🔎](docs/Linux/Linux基础知识.md)Linux基础知识
 
-[🔎]()Linux实操
+[🔎](docs/Linux/Linux实操.md)Linux实操
 # 数据库
 [🔎](docs/数据库/MySQL数据库基础知识.md)MySQL基础
 
