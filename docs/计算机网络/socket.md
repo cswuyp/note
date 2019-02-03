@@ -3,7 +3,7 @@
   * [1.select系统调用](#1-select系统调用)
   * [2.poll系统调用](#2-poll系统调用)
   * [3.epoll系统调用](#3-epoll系统调用)  
-  * [4.select、poll、epoll的区别](#4-select、poll、epoll的区别) 
+  * [4.select、poll、epoll的区别](#4-selectpollepoll的区别) 
 * [I/O复用函数的比较](#io复用函数的比较)
 # 网络IO模型
 　　IO（Input/Output,输入/输出）是计算机体系中重要的一部分。IO类外设有打印机、键盘、复印机等；存储类型的设备则有硬盘、磁盘、U盘等；通信设备有网卡、路由器等。不同的IO设备有着不同的特点：数据率不一样、传送单位不一样、数据表示不一样，等等。所以，很难实现一种统一的输入/输出方法。
