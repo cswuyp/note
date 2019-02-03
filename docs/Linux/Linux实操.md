@@ -4,7 +4,7 @@
 # 1. 如何查找出现频率最高的100个ip地址
 #cat access_log |cut -d ' ' -f 1 |sort |uniq -c | sort -nr | awk '{print $0 }' | head -n 10 |less
 
-# 查看文件的前n行和后n行命令
+# 2. 查看文件的前n行和后n行命令
 查看文件/etc/profile的前10行内容
 ```
 # head -n 10 /etc/profile
