@@ -22,7 +22,9 @@
   
   # 1. select系统调用
   select系统调用的用途是：在一段指定时间内，监听用户感兴趣的文件描述符上的可读、可写和异常等事件。
-  
+  https://www.cnblogs.com/wuyepeng/p/9740240.html  
+  https://www.cnblogs.com/wuyepeng/p/9745573.html  
+  https://www.cnblogs.com/wuyepeng/p/9726771.html  
   
   ## 文件描述符就绪条件
   哪些情况下文件描述符可以被认为是可读、可写、或者出现异常，对于select的使用非常关键。在网络编程中，下列情况下socket可读：  
@@ -40,7 +42,7 @@
   
   # 2. poll系统调用
   poll系统调用和select类似，也是在指定时间内轮询一定数量的文件描述符，以测试其中是否有就绪者。
-  
+  https://www.cnblogs.com/wuyepeng/p/9751087.html
   
   
   
@@ -51,7 +53,7 @@
   #include<sys/epoll.h>
   int epoll_create(int size)
   ```
-  
+  https://www.cnblogs.com/wuyepeng/p/9727085.html
   
   # I/O复用函数的比较
    系统调用|select|poll|epoll
