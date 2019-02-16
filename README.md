@@ -40,6 +40,8 @@
 # 数据库
 [🔎](docs/数据库/MySQL数据库基础知识.md)MySQL基础
 
+[🔎](docs/数据库/MySQL数据库SQL练习.md)MySQL数据库SQL练习
+
 [🔎](docs/数据库/redis.md)redis
 
 # 操作系统
