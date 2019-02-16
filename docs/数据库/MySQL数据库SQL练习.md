@@ -3,12 +3,13 @@
 
 
 # 查询出一个科目成绩表中，平均分数大于80的所有学生信息
-表里有课程名、学生名、分数几个字段  
-1.方法一可以用逆向思维：先扫描表，查找出平均分数小于80的人的姓名，然后再次扫描表，用not in 
+
+错误的SQL语句，在select加入了cn（课程号），如果要显示课程号会破坏查找，因为品骏分数是所有课程的而不是单个课程的，这样查出来的是单个课程的分数而不是平均分数
 ```
-select distinct * from student A where A.name not in (select distinct s.name from student s where avg(s.score)<80)
+select cn,name,avg(score) from student group by cn,name having avg(s.core)>=80
 ```
-2.方法二：
+
 ```
-select * from student s group by s.name having avg(s.core)>=80
+select name avg(score) from student group by name having avg(score)>=80;
 ```
+在group by 语句后面如果需要进行条件筛选添加having 条件语句
