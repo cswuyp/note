@@ -12,4 +12,4 @@ select cn,name,avg(score) from student group by cn,name having avg(s.core)>=80
 ```
 select name avg(score) from student group by name having avg(score)>=80;
 ```
-在group by 语句后面如果需要进行条件筛选添加having 条件语句
+在group by 语句后面如果需要进行条件筛选添加having 条件语句，where后面不能加聚合函数例如avg，所以这里只能用group by  having
