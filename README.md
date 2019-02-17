@@ -58,3 +58,6 @@
 
 # Node.js
 [🔎](docs/Node.js/Nodejs基础.md)Node.js基础
+
+# Shell
+[🔎](docs/Shell/Shell基础.md)Shell基础
