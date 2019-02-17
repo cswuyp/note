@@ -26,7 +26,7 @@
 * [SQL约束有哪几种？](#sql约束有哪几种)
 * [SQL优化](#sql优化)
 * [平衡二叉树、B树、B+树、B* 树理解其中一种你就都明白了](https://www.cnblogs.com/wuyepeng/p/9744407.html)
-
+* [where和having的区别](#where和having的区别)
 # 一、索引
 ## B+ Tree 原理
 B Tree指的是Balance Tree，就是平衡树。平衡树是一棵查找树，并且所有叶子节点位于同一层。  
@@ -367,3 +367,14 @@ select emp.empno,emp.ename,emp.sal,dept.dname
       from dept,emp
       where (emp.deptno = dept.deptno) and (emp.sal > 1500) 
 ```
+
+# where和having的区别
+“where”是一个约束声明，在查询数据库的结果返回之前对数据库中的查询条件进行约束，即在结果返回之前起作用，且where后面不能使用“聚合函数”  
+where后面不能使用聚合函数是因为where的执行顺序在聚合函数之前。
+
+“having”是一个过滤声明，所谓过滤是在查询数据库的结果返回之后进行过滤，即在结果返回之后起作用，并且having后面可以使用“聚合函数”  
+
+where子句是用来指定“行”的条件的，having子句是指定“组”的条件的。
+
+
+
