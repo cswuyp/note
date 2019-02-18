@@ -1,6 +1,7 @@
-* [Github的ID更名后如何把旧的ID的commit记录跟新的GitHub的ID一起显示](#1-github的id更名后如何把旧的ID的commit记录跟新的github的id一起显示)
+* [Github的ID更名后如何把旧的ID的commit记录跟新的GitHub的ID一起显示](#github的id更名后如何把旧的ID的commit记录跟新的github的id一起显示)
+* [删除github项目里的commit记录](#删除github项目里的commit记录)
 
-# 1. Github的ID更名后如何把旧的ID的commit记录跟新的GitHub的ID一起显示
+# Github的ID更名后如何把旧的ID的commit记录跟新的GitHub的ID一起显示
 　　我们知道如果GitHub更改名字后如果不做任何处理则前面名字提交的记录不会再显示在帐号初始页面提交记录的小格子里，满满的小绿格顿时变为灰色的，这时候我们
 要怎么把旧名字的提交记录也显示出来呢？  
 　　这是GitHub的官方文档https://help.github.com/articles/changing-author-info/  
@@ -58,3 +59,21 @@ fi
 (6)把正确历史 push 到 Github：（push 有困难时记得修改 DNS 或者搭梯子）
 git push --force --tags origin 'refs/heads/*'
 
+# 删除github项目里的commit记录
+首先是把项目下载下来
+```
+git clone 项目地址
+```
+然后进入项目后,查看项目的commit记录
+```
+git log
+```
+在commit后面的一串字符时id号，如果我们要删除该commit则应该用后一个commit id
+
+删除该commit
+```
+git reset --hard 下一个commit_id
+```
+```
+git push origin HEAD --force
+```
