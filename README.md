@@ -13,6 +13,8 @@
 # Python相关知识
 [🔎](docs/Python/Python基础.md)Python基础
 
+[🔎](docs/Python/正则表达式.md)正则表达式
+
 ## Python小练习
 
 [🔎](docs/Python/shehuiren.md)用Python画一只小猪佩奇
