@@ -27,6 +27,7 @@
 * [SQL优化](#sql优化)
 * [平衡二叉树、B树、B+树、B* 树理解其中一种你就都明白了](https://www.cnblogs.com/wuyepeng/p/9744407.html)
 * [where和having的区别](#where和having的区别)
+* [char和vchar的区别](#char和vchar的区别)
 # 一、索引
 ## B+ Tree 原理
 B Tree指的是Balance Tree，就是平衡树。平衡树是一棵查找树，并且所有叶子节点位于同一层。  
@@ -376,5 +377,6 @@ where后面不能使用聚合函数是因为where的执行顺序在聚合函数�
 
 where子句是用来指定“行”的条件的，having子句是指定“组”的条件的。
 
-
+# char和vchar的区别
+char的长度是不可变的，而vchar的长度是可变的。假如定义一个char(10)和vchar(10)存进去的数据都是"abcdef"，那么char的长度依旧为10，前面是abcdef后面有4个空位置，而vchar的长度会变为6不会存在未使用的空位置。char相对于vchar的缺点是无用内存多，优点是存取速度快。
 
