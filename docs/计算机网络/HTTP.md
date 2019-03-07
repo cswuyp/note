@@ -1,7 +1,7 @@
 * [get和post的区别](#get和post的区别)
 * [get和post的应用场景](#get和post的应用场景)
 * [关于HTTP协议](https://www.jianshu.com/p/80e25cb1d81a)
-
+* [HTTP面试都问啥](https://mp.weixin.qq.com/s?__biz=MzUyNjQxNjYyMg==&mid=2247484857&idx=2&sn=1753c5630a98be4141796606f5ad7061&chksm=fa0e6a38cd79e32e44cc046dc68576f26c9fc71eb341c9648d28107277fbc0556989c07ffb13&scene=0&key=7462c83afda42677b06c5a0246ee1c85e2d74046017fea8427dcb7bcab46c2c40e3da2959c76ae48c005e7bd6010479d3f0d7f723b6da0f4e371029c214c3f0904947263cb2d4d26b17bd93d013e48c3&ascene=14&uin=MjEzMDkzMzUwNA%3D%3D&devicetype=Windows+7&version=62060728&lang=zh_CN&pass_ticket=j5C66yru4LWtCVCeCOMbUc%2FXqNumswxmjPHDkg0m0n7e6JMVHbFMAFXv1XFSocMQ)
 
 
 # get和post的区别
