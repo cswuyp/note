@@ -2,7 +2,7 @@
 * [get和post的应用场景](#get和post的应用场景)
 * [关于HTTP协议](https://www.jianshu.com/p/80e25cb1d81a)
 * [HTTP面试都问啥](https://mp.weixin.qq.com/s?__biz=MzUyNjQxNjYyMg==&mid=2247484857&idx=2&sn=1753c5630a98be4141796606f5ad7061&chksm=fa0e6a38cd79e32e44cc046dc68576f26c9fc71eb341c9648d28107277fbc0556989c07ffb13&scene=0&key=7462c83afda42677b06c5a0246ee1c85e2d74046017fea8427dcb7bcab46c2c40e3da2959c76ae48c005e7bd6010479d3f0d7f723b6da0f4e371029c214c3f0904947263cb2d4d26b17bd93d013e48c3&ascene=14&uin=MjEzMDkzMzUwNA%3D%3D&devicetype=Windows+7&version=62060728&lang=zh_CN&pass_ticket=j5C66yru4LWtCVCeCOMbUc%2FXqNumswxmjPHDkg0m0n7e6JMVHbFMAFXv1XFSocMQ)
-
+* [HTTP和HTTPS](#http和https)
 
 # get和post的区别
 POST和GET都是向服务器提交数据，并且都会从服务器获取数据。
@@ -74,4 +74,16 @@ post用于创建资源，资源的内容会被编入HTTP请示的内容中，例
   ---|:--:|:--:|:--:|:--:|---:
   get|HTTP报头|明文|不安全|长度较小|数据查询
   post|HTTP正文|可明可密|安全|支持较大数据传输|修改数据
+
+# HTTP和HTTPS
+HTTP的全称是Hyper Text Transfer Protocol,中文名叫作超文本传输协议。HTTP协议是用于从网络传输超文本数据到本地浏览器的传送协议，它能保证高效的而准确的传送超文本文档。HTTP由万维网协会和Internet工作小组IETF共同合作制定的规范，目前广泛使用的是HTTP1.1版本。  
+
+HTTPS的全称是Hyper Text Transfer Protocol over Secure Socket Layer,是以安全为目标的HTTP通道，简单讲是HTTP的安全版，即HTTP下加入SSL层，简称为HTTPS。  
+
+HTTPS的安全基础是SSL，因此通过它传输的内容是经过SSL加密的，它的主要作用可以分为两种。  
+1.建立一个信息安全通道来保证数据传输的安全。  
+2.确认网站的真实性，凡是使用了HTTPS的网站，都可以通过点击浏览器地址栏的锁头标志来查看网站认证之后的真实信息，也可以通过CA机构颁发的安全签章来查询。
+
+有一些网站虽然使用了HTTPS协议，但是还是会被浏览器提示不安全，例如我们的12306，这是因为12306的CA证书是中国铁道部自行签发的，而这个证书不被CA机构信任所以就会出现“您的连接不是私密连接”。  
+
 
