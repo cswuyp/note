@@ -1,73 +1,22 @@
 # C/C++相关知识
-[🔎](docs/C++/基础知识.md) C/C++基础知识
-
-[🔎](docs/C++/数据结构与算法.md) 数据结构与算法
-
-[🔎](docs/C++/进程之间的通信.md) 进程之间的通信
-
-[🔎](docs/C++/进程和线程相关.md) 进程和线程相关
-
-[🔎](docs/C++/每日一练.md) 每日一练
-
+[🔎](docs/C++/README.md) C/C++
 
 # Python相关知识
-[🔎](docs/Python/Python基础.md)Python基础
+[🔎](docs/Python/README.md)Python
 
-[🔎](docs/Python/Python爬虫.md)Python爬虫
-
-## Python小练习
-
-[🔎](docs/Python/shehuiren.md)用Python画一只小猪佩奇
-
-[🔎](docs/Python/爬取猫眼top100电影.md) 爬取猫眼top100电影
-
-
+# golang
+[🔎](docs/golang/README.md)golang
 
 # 网络
-
-[🔎](docs/计算机网络/计算机网络基础知识.md)计算机网络基础知识
-
-[🔎](docs/计算机网络/HTTP.md)HTTP
-
-[🔎](docs/计算机网络/socket.md)socket
-
-
-
-# Linux
-
-[🔎](docs/Linux/常用Linux指令.md)常用Linux指令
-
-[🔎](docs/Linux/Linux基础知识.md)Linux基础知识
-
-[🔎](docs/Linux/Linux实操.md)Linux实操
+[🔎](docs/计算机网络/README.md)计算机网络
 
 # 数据库
-[🔎](docs/数据库/MySQL数据库基础知识.md)MySQL基础
-
-[🔎](docs/数据库/MySQL数据库SQL练习.md)MySQL数据库SQL练习
-
-[🔎](docs/数据库/redis.md)redis
+[🔎](docs/数据库/README.md)数据库
 
 # 操作系统
-[🔎](docs/操作系统/操作系统基础知识.md)操作系统基础
-
-# Git
-[🔎](docs/Git和SVN/Git的使用.md)Git的使用
+[🔎](docs/操作系统/README.md)操作系统
 
 # 面试常见题目
 [🔎](docs/面试题目/面试题目.md)面试常见题目
 
-# 常用类库
-[🔎](docs/常用类库/cJSON.md)cJSON
 
-# Node.js
-[🔎](docs/Node.js/Nodejs基础.md)Node.js基础
-
-# Shell
-[🔎](docs/Shell/Shell基础.md)Shell基础
-
-# 测试开发
-[🔎](docs/测试开发/测试开发例子.md)测试开发例子
-
-# golang
-[🔎](docs/golang/README.md)golang相关
